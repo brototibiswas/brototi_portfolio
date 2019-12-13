@@ -1,0 +1,17 @@
+@import 'header';
+
+html,body {
+    font-size: 16px;
+    height: 100%;
+	position: relative;
+}
+footer {
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p, span {
+    font-family: 'Nunito Sans', sans-serif;
+}
