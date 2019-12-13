@@ -1,0 +1,14 @@
+{
+  "name": "brototi-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/sass/ -o src/css/ --recursive"
+  },
+  "author": "Brototi Biswas",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
