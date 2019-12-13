@@ -1,0 +1,36 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+p, span {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/**
+ *  
+ *  FONT GLOBAL STYLES
+ * 
+ */
+.header-heavy, .text-heavy {
+	font-weight: 900;
+}
+.header-extra-bold, .text-extra-bold {
+	font-weight: 800;
+}
+.header-bold, .text-bold {
+	font-weight: 700;
+}
+.header-semi-bold, .text-semi-bold {
+	font-weight: 600;
+}
+.header-medium-bold, .text-medium-bold {
+	font-weight: 500;
+}
+.header-light, .text-light {
+	font-weight: 300;
+}
+.header-lighter, .text-lighter {
+	font-weight: 200;
+}
+.header-thin, .text-thin {
+	font-weight: 100;
+}
