@@ -1,0 +1,9 @@
+@import "colors";
+
+@mixin overlay($color, $opacity) {
+    background: rgba($color,$opacity);
+} 
+
+@mixin gradient-overlay($direction,$color1, $opacity1, $color2, $opacity2) {
+    background: linear-gradient($direction,rgba($color1,$opacity1),rgba($color2,$opacity2));
+} 
