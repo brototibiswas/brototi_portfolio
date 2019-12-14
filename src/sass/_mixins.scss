@@ -1,4 +1,14 @@
+@import "colors";
+
 @mixin background {
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@mixin textShadow {
+    filter: drop-shadow(0px 3px 7px rgba($black, 0.204));
+}
+
+@mixin dropShadow {
+    box-shadow: 0px 5px 10px -1px rgba($brown,0.35);
 }
