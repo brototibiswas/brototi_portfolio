@@ -1,8 +1,13 @@
+@import "overlay";
+
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
 }
 p, span {
     font-family: 'Nunito Sans', sans-serif;
+}
+#LANDING-TEXT {
+    @include textShadow;
 }
 
 /**
@@ -10,6 +15,15 @@ p, span {
  *  FONT GLOBAL STYLES
  * 
  */
+.para {
+	color: $dark-grey;
+	font-size: 1rem;
+    line-height: 1.65rem;
+}
+.section-title {
+	color: $brown;
+	@include textShadow;
+}
 .header-heavy, .text-heavy {
 	font-weight: 900;
 }
@@ -34,4 +48,5 @@ p, span {
 .header-thin, .text-thin {
 	font-weight: 100;
 }
+
 
