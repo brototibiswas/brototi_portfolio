@@ -72,12 +72,15 @@ h1, h2, h3, h4, h5, h6 {
 p, span {
   font-family: 'Nunito Sans', sans-serif; }
 
+<<<<<<< HEAD
 figcaption {
   color: #C8C6C9;
   font-size: 1rem;
   text-align: center;
   padding-top: 0.5rem; }
 
+=======
+>>>>>>> 0267f56130b861bfa5c31cf231cea34913d88b62
 #LANDING-TEXT {
   filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }
 
@@ -88,13 +91,19 @@ figcaption {
  */
 .para {
   color: #A9A5A2;
+<<<<<<< HEAD
   font-size: 1.3rem;
   line-height: 2rem; }
+=======
+  font-size: 1rem;
+  line-height: 1.65rem; }
+>>>>>>> 0267f56130b861bfa5c31cf231cea34913d88b62
 
 .section-title {
   color: #8D8288;
   filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }
 
+<<<<<<< HEAD
 .portfolio-title {
   color: #8D8288;
   font-size: 2rem;
@@ -111,6 +120,8 @@ figcaption {
   height: .45em;
   z-index: -1; }
 
+=======
+>>>>>>> 0267f56130b861bfa5c31cf231cea34913d88b62
 .header-heavy, .text-heavy {
   font-weight: 900; }
 
@@ -155,6 +166,7 @@ figcaption {
   background: linear-gradient(56deg, rgba(200, 198, 201, 0.4), rgba(225, 192, 201, 0.65)), url("../image/79155121_445220582830683_8282562865164976128_n.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+<<<<<<< HEAD
 
 /**
  * 
@@ -206,6 +218,8 @@ figcaption {
 
 .video-container {
   margin: 0 auto; }
+=======
+>>>>>>> 0267f56130b861bfa5c31cf231cea34913d88b62
 
 #FOOTER-SECTION {
   background-color: #8D8288; }
