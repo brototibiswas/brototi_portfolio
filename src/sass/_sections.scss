@@ -23,3 +23,38 @@
     @include image-gradient-overlay(56deg, $light-grey, 0.4, $rose,0.65, "../image/79155121_445220582830683_8282562865164976128_n.jpg");
     @include background;
 }
+
+/**
+ * 
+ * PORTFOLIO SECTION
+ * 
+ */
+.portfolio-cover {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center; 
+    cursor: pointer;
+    background: $old-rose;
+}
+.portfolio-cover:hover img {
+    opacity: 0.5;
+}
+.portfolio-cover .portfolio-hover-msg {
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 0.2rem solid $white;
+    border-top: 0.2rem solid $white;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(0,1);
+}
+.portfolio-cover:hover .portfolio-hover-msg {
+    opacity: 1;
+    transform: scale(1);
+}
