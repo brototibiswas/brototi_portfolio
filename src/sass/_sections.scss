@@ -49,10 +49,10 @@
     height: 80%;
     left: 10%;
     top: 10%;
-    border-bottom: 0.2rem solid $white;
-    border-top: 0.2rem solid $white;
     transition: opacity 0.35s, transform 0.35s;
     transform: scale(0,1);
+    @include border(top,0.2rem,solid,$white);
+    @include border(bottom,0.2rem,solid,$white);
 }
 .portfolio-cover:hover .portfolio-hover-msg {
     opacity: 1;

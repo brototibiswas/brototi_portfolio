@@ -159,10 +159,10 @@ p, span {
   height: 80%;
   left: 10%;
   top: 10%;
-  border-bottom: 0.2rem solid #FFFFFF;
-  border-top: 0.2rem solid #FFFFFF;
   transition: opacity 0.35s, transform 0.35s;
-  transform: scale(0, 1); }
+  transform: scale(0, 1);
+  border-top: 0.2rem solid #FFFFFF;
+  border-bottom: 0.2rem solid #FFFFFF; }
 
 .portfolio-cover:hover .portfolio-hover-msg {
   opacity: 1;
