@@ -63,6 +63,8 @@
     padding-left: 2rem;
     padding-right: 2rem;
     @include dropShadow;
+    // display: none;
+    transition: display 0.5s ease-in;
 }
 .portfolio-title-container {
     text-align: center;

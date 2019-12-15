@@ -194,7 +194,8 @@ figcaption {
   border-top: 0.1rem solid #C8C6C9;
   padding-left: 2rem;
   padding-right: 2rem;
-  box-shadow: 0px 5px 10px -1px rgba(141, 130, 136, 0.35); }
+  box-shadow: 0px 5px 10px -1px rgba(141, 130, 136, 0.35);
+  transition: display 0.5s ease-in; }
 
 .portfolio-title-container {
   text-align: center; }

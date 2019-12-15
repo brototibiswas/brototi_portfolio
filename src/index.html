@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Montserrat:300,400,700,800&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="d-flex flex-column">
@@ -88,7 +89,7 @@
                     <div class="row justify-content-around">
                         
                         <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
-                            <div class="view portfolio-cover" target="softeng_ehr">
+                            <div class="view portfolio-cover" id="softeng_ehr">
                                 <img src="image/placeholder.png" class="img-fluid" alt="portfolio cover">
                                 <div class="portfolio-hover-msg d-flex justify-content-center">
                                     <h4 class="text-white text-bold align-self-center">Electronic Health Record</h4>
@@ -96,7 +97,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
-                            <div class="view portfolio-cover" target="capstone">
+                            <div class="view portfolio-cover" id="capstone">
                                 <img src="image/placeholder.png" class="img-fluid" alt="portfolio cover">
                                 <div class="portfolio-hover-msg d-flex justify-content-center">
                                     <h4 class="text-white text-white text-bold align-self-center align-self-center">Capstone - Fieldwork Form Website</h4>
@@ -104,7 +105,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6 col-lg-4 mb-3">
-                            <div class="view portfolio-cover" target="superpurposes">
+                            <div class="view portfolio-cover" id="superpurposes">
                                 <img src="image/placeholder.png" class="img-fluid" alt="portfolio cover">
                                 <div class="portfolio-hover-msg d-flex justify-content-center">
                                     <h4 class="text-white text-bold align-self-center">Super Purposes - Landing Page</h4>
@@ -116,8 +117,8 @@
                 </div>
 
 <!-- SOFTWARE ENGINEERING PORTFOLIO SECTION -->
-                <div class="container inner-section pt-4" id="softeng_ehr">
-                    <div class="portfolio-content pt-4 pb-4">
+                <div class="portfolio-content container inner-section pt-4" id="div_softeng_ehr">
+                    <div class=" pt-4 pb-4">
                         <div class="portfolio-title-container">
                             <h4 class="portfolio-title header-medium-bold text-uppercase">Electronic Health Record</h3>
                         </div>
@@ -149,7 +150,7 @@
                         </div>
                         <div class="para pt-4 col-md-6 video-container">
                             <video width="100%" height="300px" controls>
-                                <source src="movie.mp4" type="video/mp4">
+                                <source src="https://www.youtube.com/watch?v=VRZVQVUO4PU" type="video/mp4">
                             </video>
                         </div>
                         
@@ -157,8 +158,8 @@
                 </div>
 
 <!-- SUPERPURPOSES PORTFOLIO SECTION -->
-                <div class="container inner-section pt-4" id="superpurposes">
-                    <div class="portfolio-content pt-4 pb-4">
+                <div class="portfolio-content container inner-section pt-4" id="div_superpurposes">
+                    <div class="pt-4 pb-4">
                         <div class="portfolio-title-container">
                             <h4 class="portfolio-title header-medium-bold text-uppercase">Superpurposes.com</h3>
                         </div>
@@ -190,7 +191,7 @@
                         </div>
                         <div class="para pt-4 col-md-6 video-container">
                             <video width="100%" height="300px" controls>
-                                <source src="movie.mp4" type="video/mp4">
+                                <source src="https://www.youtube.com/watch?v=VRZVQVUO4PU" type="video/mp4">
                             </video>
                         </div>
                         
@@ -198,8 +199,8 @@
                 </div>
 
 <!-- CAPSTONE PORTFOLIO SECTION -->
-                <div class="container inner-section pt-4" id="capstone">
-                    <div class="portfolio-content pt-4 pb-4">
+                <div class="portfolio-content container inner-section pt-4" id="div_capstone">
+                    <div class="pt-4 pb-4">
                         <div class="portfolio-title-container">
                             <h4 class="portfolio-title header-medium-bold text-uppercase">Capstone: Fieldwork Application Website</h3>
                         </div>
@@ -231,7 +232,7 @@
                         </div>
                         <div class="para pt-4 col-md-6 video-container">
                             <video width="100%" height="300px" controls>
-                                <source src="movie.mp4" type="video/mp4">
+                                <source src="https://www.youtube.com/watch?v=VRZVQVUO4PU" type="video/mp4">
                             </video>
                         </div>
                         
@@ -249,5 +250,7 @@
         </footer>
 
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
