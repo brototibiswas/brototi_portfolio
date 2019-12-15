@@ -6,6 +6,12 @@ h1,h2,h3,h4,h5,h6 {
 p, span {
     font-family: 'Nunito Sans', sans-serif;
 }
+figcaption {
+	color: $light-grey;
+	font-size: 1rem;
+	text-align: center;
+	padding-top: 0.5rem;
+}
 #LANDING-TEXT {
     @include textShadow;
 }
@@ -17,12 +23,28 @@ p, span {
  */
 .para {
 	color: $dark-grey;
-	font-size: 1rem;
-    line-height: 1.65rem;
+	font-size: 1.3rem;
+	line-height: 2rem;
 }
 .section-title {
 	color: $brown;
 	@include textShadow;
+}
+.portfolio-title {
+	color: $brown;
+	font-size: 2rem;
+	position: relative;
+	display: inline-block;
+}
+.portfolio-title::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	@include overlay($pink, 0.65);
+	left: 0;
+	bottom: 0;
+	height: .45em;
+	z-index: -1;
 }
 .header-heavy, .text-heavy {
 	font-weight: 900;

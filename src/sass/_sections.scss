@@ -58,3 +58,19 @@
     opacity: 1;
     transform: scale(1);
 }
+.portfolio-content {
+    @include border(top,0.1rem,solid,$light-grey);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    @include dropShadow;
+}
+.portfolio-title-container {
+    text-align: center;
+}
+.portfolio-images {
+    width: 90%;
+    margin: 0 auto;
+}
+.video-container {
+    margin: 0 auto;
+}
