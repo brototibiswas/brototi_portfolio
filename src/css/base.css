@@ -75,11 +75,23 @@ h1, h2, h3, h4, h5, h6 {
 p, span {
   font-family: 'Nunito Sans', sans-serif; }
 
+#LANDING-TEXT {
+  filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }
+
 /**
  *  
  *  FONT GLOBAL STYLES
  * 
  */
+.para {
+  color: #A9A5A2;
+  font-size: 1rem;
+  line-height: 1.65rem; }
+
+.section-title {
+  color: #8D8288;
+  filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }
+
 .header-heavy, .text-heavy {
   font-weight: 900; }
 
@@ -115,8 +127,15 @@ p, span {
   height: 6px;
   transform: matrix(1, 0, 0, 1, 0, 0); }
 
-.section-title {
-  color: #8D8288; }
+/**
+ * 
+ * ABOUT SECTION
+ * 
+ */
+.about-image {
+  background: linear-gradient(56deg, rgba(200, 198, 201, 0.4), rgba(225, 192, 201, 0.65)), url("../image/79155121_445220582830683_8282562865164976128_n.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 #FOOTER-SECTION {
   background-color: #8D8288; }
