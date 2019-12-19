@@ -91,6 +91,13 @@ figcaption {
   font-size: 1.3rem;
   line-height: 2rem; }
 
+.inline-link {
+  color: #eabbd6;
+  text-decoration: underline; }
+
+.inline-link:hover {
+  color: #d2a9b0; }
+
 .section-title {
   color: #8D8288;
   filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }

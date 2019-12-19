@@ -26,6 +26,13 @@ figcaption {
 	font-size: 1.3rem;
 	line-height: 2rem;
 }
+.inline-link {
+	color: $pink;
+	text-decoration: underline;
+}
+.inline-link:hover {
+	color: $old-rose;
+}
 .section-title {
 	color: $brown;
 	@include textShadow;
