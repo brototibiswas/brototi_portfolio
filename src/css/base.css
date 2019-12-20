@@ -89,6 +89,10 @@ figcaption {
  *  FONT GLOBAL STYLES
  * 
  */
+.topic {
+  color: #eabbd6;
+  font-weight: 600; }
+
 .para {
   color: #A9A5A2;
   font-size: 1.3rem;
@@ -120,10 +124,6 @@ figcaption {
   bottom: 0;
   height: .45em;
   z-index: -1; }
-
-.portfolio-image-desc {
-  font-size: 1rem;
-  line-height: 1.86rem; }
 
 .header-heavy, .text-heavy {
   font-weight: 900; }
