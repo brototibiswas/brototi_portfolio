@@ -1,13 +1,12 @@
 #LANDING-IMAGE {
   background-repeat: no-repeat;
-  height: 80vh;
-  background: url(../image/cover_image_A0_Rectangle_12_pattern@2x.png);
+  background: url(../image/background-header.jpg);
   position: relative;
   background-position-x: right;
   background-size: cover; }
 
 .landing-overlay {
-  background: linear-gradient(125deg, rgba(141, 130, 136, 0.82), rgba(210, 169, 176, 0.69));
+  background: linear-gradient(167deg, rgba(210, 169, 176, 0.6) 0%, rgba(141, 130, 136, 0.6) 60%);
   width: 100%;
   height: 100%;
   top: 0;
@@ -30,8 +29,9 @@
   height: 100%; }
 
 #logo {
-  position: absolute;
-  left: 2rem; }
+  position: relative;
+  left: 4%;
+  width: 100%; }
 
 #logo img {
   width: 5rem;
@@ -43,7 +43,8 @@
  * 
  */
 #LANDING-CONTENT {
-  padding-top: 12%; }
+  padding-top: 5%;
+  padding-bottom: 8%; }
 
 /** 
  * 
@@ -51,20 +52,38 @@
  * 
  */
 #SOCIAL {
-  position: relative;
-  width: 12rem; }
+  display: inline-block; }
 
-.social-icon {
-  background: #eabbd6;
-  margin-right: auto;
+.btn-circle {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  padding: 0;
   border-radius: 50%;
-  filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.204)); }
+  background: #eabbd6; }
 
-.social-icon-circle {
-  width: 35px;
-  height: 35px;
-  padding: 0.45rem;
-  color: #FFFFFF; }
+.btn-circle i {
+  font-size: 1.4rem;
+  position: relative; }
+
+/** 
+ * 
+ *  LINKS BUTTONS
+ * 
+ */
+#LINKS {
+  display: inline-block; }
+
+#LINKS .btn-pill {
+  border-radius: 1.2rem;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: #eabbd6; }
+
+#LINKS .header-link {
+  font-size: 1rem; }
 
 ::selection {
   background: rgba(200, 198, 201, 0.4); }
@@ -237,3 +256,6 @@ html, body {
 
 footer {
   width: 100%; }
+
+a {
+  text-decoration: none !important; }

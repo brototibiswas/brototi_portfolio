@@ -8,6 +8,10 @@
     background: linear-gradient($direction,rgba($color1,$opacity1),rgba($color2,$opacity2));
 } 
 
+@mixin background-gradient-overlay($direction,$color1, $opacity1, $amount1, $color2, $opacity2, $amount2) {
+    background: linear-gradient($direction,rgba($color1,$opacity1) $amount1,rgba($color2,$opacity2) $amount2);
+} 
+
 @mixin image-gradient-overlay($direction,$color1, $opacity1, $color2, $opacity2, $image-path) {
     background: linear-gradient($direction,rgba($color1,$opacity1),rgba($color2,$opacity2)), url($image-path);
 } 
