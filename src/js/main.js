@@ -40,10 +40,10 @@ function populateUI(project) {
                         <p class="card-desc font-light">${project[i].description}</p>
                         <div class="row" id="PROJECT-BTN">
                             <div class="col-6">
-                                <a href="${project[i].code_url}" class="btn">Code</a>
+                                <a href="${project[i].code_url}" target="_blank" class="btn">Code</a>
                             </div>
                             <div class="col-6">
-                                <a href="${project[i].live_url}" class="btn">Live</a>
+                                <a href="${project[i].live_url}" target="_blank" class="btn">Live</a>
                             </div>
                         </div>
                     </div>
