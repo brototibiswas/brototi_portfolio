@@ -9,9 +9,29 @@
             #PROJECT-BTN {
                 width: 40%;
 
+                @include sm {
+                    width: 80%;
+                }
+
+                @include md {
+                    width: 60%;
+                }
+
+                @include lg {
+                    width: 100%;
+                }
+
+                @include xl {
+                    width: 55%;
+                }
+
                 .btn {
                     color: $white;
                     background-color: $pink;
+                }
+
+                .btn:hover {
+                    @include hover;
                 }
             }
         }

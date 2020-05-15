@@ -10,10 +10,32 @@
     #LANDING-COVER #LANDING-WRAPPER #logo {
       height: 100px;
       width: 100px; }
+      @media (min-width: 768px) {
+        #LANDING-COVER #LANDING-WRAPPER #logo {
+          height: 120px;
+          width: 120px; } }
+      @media (min-width: 992px) {
+        #LANDING-COVER #LANDING-WRAPPER #logo {
+          height: 130px;
+          width: 130px; } }
     #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .heading {
       font-size: 2rem; }
+      @media (min-width: 768px) {
+        #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .heading {
+          font-size: 2.5rem; } }
+      @media (min-width: 992px) {
+        #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .heading {
+          font-size: 3rem; } }
     #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .sub-heading {
       font-size: 1.5rem; }
+      @media (min-width: 768px) {
+        #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .sub-heading {
+          font-size: 1.75rem; } }
+      @media (min-width: 992px) {
+        #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .sub-heading {
+          font-size: 2.25rem; } }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #SOCIAL .btn-circle:hover {
+      background-color: #d2a9b0; }
     #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #SOCIAL .btn-circle {
       display: flex;
       justify-content: center;
@@ -26,6 +48,8 @@
     #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #SOCIAL .btn-circle i {
       font-size: 1.4rem;
       position: relative; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #LINKS .btn-pill:hover {
+      background-color: #d2a9b0; }
     #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #LINKS .btn-pill {
       border-radius: 1.2rem;
       display: inline-block;
@@ -110,9 +134,23 @@ figcaption {
 
 #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN {
   width: 40%; }
+  @media (min-width: 576px) {
+    #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN {
+      width: 80%; } }
+  @media (min-width: 768px) {
+    #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN {
+      width: 60%; } }
+  @media (min-width: 992px) {
+    #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN {
+      width: 55%; } }
   #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN .btn {
     color: #FFFFFF;
     background-color: #eabbd6; }
+  #CONTENT-SECTION #PROJECTS .card #PROJECT-BTN .btn:hover {
+    background-color: #d2a9b0; }
 
 #FOOTER-SECTION {
   background-color: #8D8288; }

@@ -19,6 +19,16 @@
         #logo {
             height: 100px;
             width: 100px;
+
+            @include md {
+                height: 120px;
+                width: 120px;
+            }
+
+            @include lg {
+                height: 130px;
+                width: 130px;
+            }
         }
     
         //LANDING TEXT
@@ -28,9 +38,26 @@
         
             .heading {
                 font-size: 2rem;
+
+                @include md {
+                    font-size: 2.5rem;
+                }
+
+                @include lg {
+                    font-size: 3rem;
+                }
             }
+
             .sub-heading {
                 font-size: 1.5rem;
+
+                @include md {
+                    font-size: 1.75rem;
+                }
+
+                @include lg {
+                    font-size: 2.25rem;
+                }
             }
         }
     
@@ -38,7 +65,10 @@
             //SOCIAL MEDIA BUTTONS
             #SOCIAL{
                 // display: inline-block;
-    
+                .btn-circle:hover {
+                    @include hover;
+                }
+
                 .btn-circle {
                     display: flex;
                     justify-content: center;
@@ -53,11 +83,16 @@
                     font-size: 1.4rem;
                     position: relative;
                 }
+
+                
             }
     
             //LINKS 
             #LINKS {
                 // display: inline-block;
+                .btn-pill:hover {
+                    @include hover;
+                }
     
                 .btn-pill {
                     border-radius: 1.2rem;
