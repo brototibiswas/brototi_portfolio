@@ -1,89 +1,38 @@
-#LANDING-IMAGE {
+#LANDING-COVER {
   background-repeat: no-repeat;
   background: url(../image/background-header.jpg);
-  position: relative;
+  background-position: top;
   background-position-x: right;
-  background-size: cover; }
-
-.landing-overlay {
-  background: linear-gradient(167deg, rgba(210, 169, 176, 0.6) 0%, rgba(141, 130, 136, 0.6) 60%);
-  width: 100%;
-  height: 100%;
-  top: 0;
-  position: absolute;
-  z-index: 1; }
-
-#LANDING-WRAPPER {
-  z-index: 2;
-  position: relative;
-  height: 100%; }
-
-/** 
- * 
- *  LANDING LOGO
- * 
- */
-#LANDING-WRAPPER {
-  z-index: 2;
-  position: relative;
-  height: 100%; }
-
-#logo {
-  position: relative;
-  left: 4%;
-  width: 100%; }
-
-#logo img {
-  width: 5rem;
-  height: auto; }
-
-/** 
- * 
- *  LANDING TEXT
- * 
- */
-#LANDING-CONTENT {
-  padding-top: 5%;
-  padding-bottom: 8%; }
-
-/** 
- * 
- *  SOCIAL MEDIA ICONS
- * 
- */
-#SOCIAL {
-  display: inline-block; }
-
-.btn-circle {
-  display: flex;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  text-align: center;
-  padding: 0;
-  border-radius: 50%;
-  background: #eabbd6; }
-
-.btn-circle i {
-  font-size: 1.4rem;
-  position: relative; }
-
-/** 
- * 
- *  LINKS BUTTONS
- * 
- */
-#LINKS {
-  display: inline-block; }
-
-#LINKS .btn-pill {
-  border-radius: 1.2rem;
-  display: inline-block;
-  padding: 0.4rem 0.8rem;
-  background: #eabbd6; }
-
-#LINKS .header-link {
-  font-size: 1rem; }
+  background-size: cover;
+  box-shadow: 0px 5px 10px -1px rgba(141, 130, 136, 0.35); }
+  #LANDING-COVER #LANDING-WRAPPER {
+    height: 100%; }
+    #LANDING-COVER #LANDING-WRAPPER #logo {
+      height: 75px;
+      width: 75px; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .heading {
+      font-size: 2.5rem; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-TEXT .sub-heading {
+      font-size: 1.85rem; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #SOCIAL .btn-circle {
+      display: flex;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      text-align: center;
+      padding: 0;
+      border-radius: 50%;
+      background: #eabbd6; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #SOCIAL .btn-circle i {
+      font-size: 1.4rem;
+      position: relative; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #LINKS .btn-pill {
+      border-radius: 1.2rem;
+      display: inline-block;
+      padding: 0.4rem 0.8rem;
+      background: #eabbd6; }
+    #LANDING-COVER #LANDING-WRAPPER #LANDING-CONTENT #LINKS .header-link {
+      font-size: 1rem; }
 
 ::selection {
   background: rgba(200, 198, 201, 0.4); }
@@ -251,8 +200,7 @@ figcaption {
 
 html, body {
   font-size: 16px;
-  height: 100%;
-  position: relative; }
+  height: 100%; }
 
 footer {
   width: 100%; }

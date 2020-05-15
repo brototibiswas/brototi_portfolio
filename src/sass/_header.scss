@@ -2,98 +2,79 @@
 @import "overlay";
 @import "mixins";
 
-#LANDING-IMAGE {
+#LANDING-COVER {
     // @include background;
     background-repeat: no-repeat;
     background: url(../image/background-header.jpg);
-    position: relative;
+    background-position: top;
     background-position-x: right;
     background-size: cover;
-}
+    @include dropShadow;
 
-.landing-overlay {
-    @include background-gradient-overlay(167deg,$old-rose,0.60, 0%, $brown,0.60, 60%);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    position: absolute;
-    z-index: 1;
-}
-
-#LANDING-WRAPPER {
-    z-index: 2;
-    position: relative;
-    height: 100%;
-}
-
-/** 
- * 
- *  LANDING LOGO
- * 
- */ 
-#LANDING-WRAPPER {
-    z-index: 2;
-    position: relative;
-    height: 100%;
-}
-#logo {
-    position: relative;
-    left: 4%;
-    width: 100%;
-}
-#logo img {
-    width: 5rem;
-    height: auto;
-}
-
-/** 
- * 
- *  LANDING TEXT
- * 
- */
-#LANDING-CONTENT {
-    padding-top: 5%;
-    padding-bottom: 8%;
-}
-
-/** 
- * 
- *  SOCIAL MEDIA ICONS
- * 
- */
-#SOCIAL{
-    display: inline-block;
-}
-.btn-circle {
-    display: flex;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    text-align: center;
-    padding: 0;
-    border-radius: 50%;
-    background: $pink;
-}
-.btn-circle i {
-    font-size: 1.4rem;
-    position: relative;
+    //INNER CONTENT
+    #LANDING-WRAPPER {
+        height: 100%;
+    
+        // LANDING LOGO
+        #logo {
+            height: 75px;
+            width: 75px;
+        }
+    
+        //LANDING TEXT
+        #LANDING-TEXT {
+            // padding-top: 2rem;
+            // padding-bottom: 2rem;
+        
+            .heading {
+                font-size: 2.5rem;
+            }
+            .sub-heading {
+                font-size: 1.85rem;
+            }
+        }
+    
+        #LANDING-CONTENT {
+            //SOCIAL MEDIA BUTTONS
+            #SOCIAL{
+                // display: inline-block;
+    
+                .btn-circle {
+                    display: flex;
+                    justify-content: center;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    text-align: center;
+                    padding: 0;
+                    border-radius: 50%;
+                    background: $pink;
+                }
+                .btn-circle i {
+                    font-size: 1.4rem;
+                    position: relative;
+                }
+            }
+    
+            //LINKS 
+            #LINKS {
+                // display: inline-block;
+    
+                .btn-pill {
+                    border-radius: 1.2rem;
+                    display: inline-block;
+                    padding: 0.4rem 0.8rem;
+                    background: $pink;
+                }
+    
+                .header-link {
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }    
 }
 
 
-/** 
- * 
- *  LINKS BUTTONS
- * 
- */
-#LINKS {
-    display: inline-block;
-}
-#LINKS .btn-pill {
-    border-radius: 1.2rem;
-    display: inline-block;
-    padding: 0.4rem 0.8rem;
-    background: $pink;
-}
-#LINKS .header-link {
-    font-size: 1rem;
-}
+
+
