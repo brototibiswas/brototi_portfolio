@@ -13,7 +13,7 @@ function getProjectData() {
     $.ajax({
         type: 'GET',
         headers: {'secret-key' : '$2b$10$eFY3T0usfqerBtFjNKtdi.9i2TIHlnHij/32392r0LhbxIudAtWly'},
-        url: 'https://api.jsonbin.io/b/5ebef8bb8284f36af7bbc3d7',
+        url: 'https://api.jsonbin.io/b/5ebef8bb8284f36af7bbc3d7/1',
         async: false,
         success: function(data) {
             console.log('done')
