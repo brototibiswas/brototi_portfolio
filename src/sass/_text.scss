@@ -46,43 +46,34 @@ figcaption {
 }
 .portfolio-title {
 	color: $brown;
-	font-size: 2rem;
-	position: relative;
-	display: inline-block;
+	font-size: 1.5rem;
 }
-.portfolio-title::after {
-	content: "";
-	position: absolute;
-	width: 100%;
-	@include overlay($pink, 0.65);
-	left: 0;
-	bottom: 0;
-	height: .45em;
-	z-index: -1;
+.portfolio-desc {
+	font-size: 1rem;
 }
-.header-heavy, .text-heavy {
-	font-weight: 900;
+.font-heavy {
+	font-weight: 900 !important;
 }
-.header-extra-bold, .text-extra-bold {
-	font-weight: 800;
+.font-extra-bold {
+	font-weight: 800 !important;
 }
-.header-bold, .text-bold {
-	font-weight: 700;
+.font-bold {
+	font-weight: 700 !important;
 }
-.header-semi-bold, .text-semi-bold {
-	font-weight: 600;
+.text-semi-bold {
+	font-weight: 600 !important;
 }
-.header-medium-bold, .text-medium-bold {
-	font-weight: 500;
+.font-medium-bold {
+	font-weight: 500 !important;
 }
-.header-light, .text-light {
-	font-weight: 300;
+.font-light {
+	font-weight: 300 !important;
 }
-.header-lighter, .text-lighter {
-	font-weight: 200;
+.header-lighter, .font-lighter {
+	font-weight: 200 !important;
 }
-.header-thin, .text-thin {
-	font-weight: 100;
+.header-thin, .font-thin {
+	font-weight: 100 !important;
 }
 
 
