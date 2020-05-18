@@ -1,4 +1,5 @@
 $(document).ready(() => {
+    $('#PROJECTS').hide();
     var data = getProjectData();
     populateUI(data.project);
 });
@@ -44,9 +45,10 @@ function populateUI(project) {
                         </div>
                     </div>
                 </div>
-            </div>`
-        );
+            </div>`);
     }
+
+    setTimeout(showProjects(),3000)
 }
 
 
@@ -54,4 +56,8 @@ function imageError(image) {
     image.onrror = '';
     image.src = 'image/placeholder.png';
     return true;
+}
+
+function showProjects() {
+    $('#PROJECTS').slideDown('slow');
 }
